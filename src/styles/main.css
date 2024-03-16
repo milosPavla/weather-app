@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    box-sizing: content-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-image: url(../assets/background-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    margin: 150px 150px 0 auto;
+    padding: 40px;
+    background-image: linear-gradient(rgb(139, 175, 147), rgb(86, 87, 131));
+    height: 400px;
+    width: 500px;
+    border-radius: 30px;
+    border-bottom: 3px solid rgb(68, 68, 68);
+    border-right: 3px solid rgb(68, 68, 68);
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.container h1 {
+    color: #fff;
+}
+
+#location, #btnShow {
+    cursor: pointer;
+    font-size: medium;
+    padding: 5px;
+    border-radius: 10px;
+    border: 0;
+    border-bottom: 2px solid rgb(68, 68, 68);
+    border-right: 2px solid rgb(68, 68, 68);
+}
+
+.upper-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.lower-section {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-size: larger;
+    font-weight: 800;
+    gap: 20px;
+}
+
+#title {
+    font-size: larger;
+}
+
+#localTime {
+    font-size: smaller;
+    color: #ebebeb;
+    font-weight: 300;
+}
+
+.big-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.big-info #temp_c {
+    font-size: 58px;
+}
+
+.big-info #illustration {
+    height: 150px;
+    width: 150px;
+}
+
+.small-info1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.small-info2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    bottom: 0;
+    background-color: #252525;
+    color: #E7DFC6;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+
+footer img {
+    height: 40px;
+    border-radius: 20px;
+}
